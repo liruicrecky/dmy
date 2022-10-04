@@ -63,8 +63,8 @@ i64 solve(i64 n) {
                 }
             }
 
-            for (int j = 0; j < 10; j++) {
-                res += f[m][j][1];
+            for (int k = 0; k < 10; k++) {
+                res += f[m][k][1];
             }
         }
 
